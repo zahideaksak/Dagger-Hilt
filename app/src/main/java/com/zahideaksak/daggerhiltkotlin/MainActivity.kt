@@ -25,12 +25,12 @@ class MainActivity : AppCompatActivity() {
         var james = Musician(instrument, band)
         james.sing()*/
 
-        lars.sing()
+        //lars.sing()
     }
 }
 
 @AndroidEntryPoint
-class FragmentExample() : Fragment() {
+class FragmentExample : Fragment() {
     @Inject
     lateinit var kirk: Musician
 }
